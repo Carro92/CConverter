@@ -1,3 +1,48 @@
+# Gemensamma regler för hela projektet
 obj/
-.vscode/
+bin/
 .env
+.vs/
+.vscode/
+node_modules/
+
+# Azure Functions specifika filer
+local.settings.json
+
+# Visual Studio-specifika filer
+*.user
+*.suo
+*.sln.docstates
+*.vsp
+*.sdf
+*.cachefile
+*.VC.db
+
+# Publiceringsrelaterade filer
+*.pubxml
+*.publishproj
+publish/
+PublishScripts/
+
+# Loggfiler och debug-relaterade filer
+*.log
+*.trace
+TestResult.xml
+[Tt]est[Rr]esult*/
+
+# Backup och temporära filer
+~$*
+*~
+*.tmp
+*.bak
+
+# JetBrains Rider
+.idea/
+
+# Python (om det finns något i projektet)
+__pycache__/
+*.pyc
+
+# Andra onödiga filer
+ecf/
+rcf/
